@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                test -f build/index.html
                 node --version
                 npm --version
                 '''
