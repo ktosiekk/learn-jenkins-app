@@ -5,8 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                node --version
-                npm --version
+                echo '1 - 2 - 3'
                 '''
             }
         }
